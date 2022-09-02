@@ -1,0 +1,8 @@
+prefix=/home/ziye01/LAModel_ros/devel
+
+Name: franka_config
+Description: Description of franka_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

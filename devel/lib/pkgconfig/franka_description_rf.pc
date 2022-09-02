@@ -1,0 +1,8 @@
+prefix=/home/ziye01/LAModel_ros/devel
+
+Name: franka_description_rf
+Description: Description of franka_description_rf
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+car_model_gazebo/ackermann_cmd_mux:car_model_gazebo/ackermann_msgs:car_model_gazebo/racecar:car_model_gazebo/racecar_control:car_model_gazebo/racecar_description:car_model_gazebo/racecar_gazebo:model_source:nagivation_stack_t/robot_setup_tf:robot_model_gazebo/franka_rl/franka_config:robot_model_gazebo/franka_rl/franka_description_rf:robot_model_gazebo/franka_rl/franka_gazebo_moveit:robot_model_gazebo/franka_rl/franka_rl_test
+-DCATKIN_DEVEL_PREFIX=/home/ziye01/LAModel_ros/devel -DCMAKE_INSTALL_PREFIX=/home/ziye01/LAModel_ros/install -G Unix Makefiles

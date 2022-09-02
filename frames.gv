@@ -1,0 +1,17 @@
+digraph G {
+"base_link" -> "chassis"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 768.547 sec old)\nBuffer length: 0.000 sec\n"];
+"chassis" -> "camera_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 768.547 sec old)\nBuffer length: 0.000 sec\n"];
+"chassis" -> "chassis_inertia"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 768.547 sec old)\nBuffer length: 0.000 sec\n"];
+"chassis" -> "laser"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 768.547 sec old)\nBuffer length: 0.000 sec\n"];
+"chassis" -> "imu_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 768.547 sec old)\nBuffer length: 0.000 sec\n"];
+"left_steering_hinge" -> "left_front_wheel"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.202 Hz\nMost recent transform: 768.510 ( 0.037 sec old)\nBuffer length: 4.960 sec\n"];
+"chassis" -> "left_steering_hinge"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.202 Hz\nMost recent transform: 768.510 ( 0.037 sec old)\nBuffer length: 4.960 sec\n"];
+"chassis" -> "left_rear_wheel"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.202 Hz\nMost recent transform: 768.510 ( 0.037 sec old)\nBuffer length: 4.960 sec\n"];
+"right_steering_hinge" -> "right_front_wheel"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.202 Hz\nMost recent transform: 768.510 ( 0.037 sec old)\nBuffer length: 4.960 sec\n"];
+"chassis" -> "right_steering_hinge"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.202 Hz\nMost recent transform: 768.510 ( 0.037 sec old)\nBuffer length: 4.960 sec\n"];
+"chassis" -> "right_rear_wheel"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.202 Hz\nMost recent transform: 768.510 ( 0.037 sec old)\nBuffer length: 4.960 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 768.547"[ shape=plaintext ] ;
+ }->"base_link";
+}
